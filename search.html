@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SuperRent-searchCar</title>
+    <link type="text/css" rel="stylesheet" href="css/Rent.css">
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/socket.io.js"></script>
+    <script type="text/javascript" src="js/check.js"></script>
+</head>
+
+<div id="main">
+
+    <body>
+        <div id="title">
+            <header class="top-border" id="main header">
+                <div class="row">
+                    <img class="car-icon"
+                        src="https://previews.123rf.com/images/freshwater/freshwater1807/freshwater180700006/104600596-vector-car-icon-front-view.jpg"></img>
+                    <h2 class="car-text">SuperRent</h2>
+                </div>
+            </header>
+        </div>
+
+        /* Customer */
+        <div class="customer-wrap">
+            <h3 class="/search">Make reservation:</h5>
+                
+
+                    <h5 class="customer-con">General type</h5>
+                    <h5 class="customer-con">(midsize/compact/truck/suv/standard/fullsize/economy)</h5>
+                    <input type="text" placeholder="please enter" id="g">
+                    <h5 class="customer-con">Location</h5>
+                    <input type="text" placeholder="vancouver/richmond/ubc" id="l">
+                    <h5 class="customer-con">from date/time:</h5>
+                    <input type="text" placeholder="yyyymmdd" id="fdate">
+                    <input type="text" placeholder="hhmm" id="ftime">
+                    <h5 class="customer-con">to date/time:</h5>
+                    <input type="text" placeholder="yyyymmdd" id="tdate">
+                    <input type="text" placeholder="hhmm" id="ttime">
+                    <button class="search-btn">submit</button>
+
+                
+        </div>
